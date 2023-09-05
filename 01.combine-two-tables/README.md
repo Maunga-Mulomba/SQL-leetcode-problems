@@ -1,3 +1,6 @@
+# Combine Two Tables
+
+
 Table: Person
 
 +-------------+---------+
@@ -33,9 +36,9 @@ The result format is in the following example.
 
 
 
-Example 1:
+### Example 1:
 
-Input:
+## Input:
 Person table:
 +----------+----------+-----------+
 | personId | lastName | firstName |
@@ -50,7 +53,8 @@ Address table:
 | 1         | 2        | New York City | New York   |
 | 2         | 3        | Leetcode      | California |
 +-----------+----------+---------------+------------+
-Output:
+
+## Output:
 +-----------+----------+---------------+----------+
 | firstName | lastName | city          | state    |
 +-----------+----------+---------------+----------+
@@ -58,6 +62,6 @@ Output:
 | Bob       | Alice    | New York City | New York |
 +-----------+----------+---------------+----------+
 
-Explanation:
+## Explanation:
 There is no address in the address table for the personId = 1 so we return null in their city and state.
 addressId = 1 contains information about the address of personId = 2.
